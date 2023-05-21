@@ -1,0 +1,55 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background: linear-gradient(rgba(255,255,255,0.5),
+    rgba(255,255,255,0.5)),
+    url("https://mobimg.b-cdn.net/v3/fetch/4c/4c52afe37ef0adebb3f80f53ee52b5ca.jpeg");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.registerForm{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.registerForm label{
+    margin:10px 0;
+}
+
+.registerInput{
+    padding:10px;
+    background-color: white;
+    border: none;
+}
+
+.registerButton{
+    margin-top:20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color:white;
+    border-radius:10px;
+    padding:10px;
+}
+
+.registerLoginButton{
+    position:absolute;
+    top:60px;
+    right: 20px;
+    background-color:lightcoral;
+    cursor: pointer;
+    border: none;
+    padding:10px;
+    color:white;
+    border-radius:10px;
+}
